@@ -2,7 +2,7 @@ name: Go deploy
 on:
     push:
         tags:
-            - "v.*.*.*"
+            - "v*.*.*"
 
 jobs:
     test:
